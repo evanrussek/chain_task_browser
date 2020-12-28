@@ -9,7 +9,7 @@ jsPsych.plugins["chain-episode"] = (function() {
     name: "chain-episode",
     parameters: {
         // these are parameters that the plug_in takes in...
-        state_images: { // c1 reward value
+        state_images: { //
           type: jsPsych.plugins.parameterType.IMAGE,
           default: undefined
         },
@@ -17,27 +17,27 @@ jsPsych.plugins["chain-episode"] = (function() {
           type: jsPsych.plugins.parameterType.INT,
           default: undefined
         },
-        next_state: { // c1 image path (as a string)
+        next_state: { //
           type: jsPsych.plugins.parameterType.INT,
           default: undefined
         },
-        current_reward_category: { // c1 image path (as a string)
+        current_reward_category: { //
           type: jsPsych.plugins.parameterType.STRING,
           default: undefined
         },
-        current_terminate_color: { // c1 image path (as a string)
+        current_terminate_color: { //
           type: jsPsych.plugins.parameterType.STRING,
           default: undefined
         },
-        state_colors: { // c1 image path (as a string)
+        state_colors: { //
           type: jsPsych.plugins.parameterType.STRING,
           default: undefined
         },
-        state_categories: { // c1 image path (as a string)
+        state_categories: { //
           type: jsPsych.plugins.parameterType.STRING,
           default: undefined
         },
-        trial_number: { // c1 image path (as a string)
+        trial_number: { //
           type: jsPsych.plugins.parameterType.INT,
           default: undefined
         }
