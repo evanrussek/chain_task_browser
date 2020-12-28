@@ -316,7 +316,7 @@ jsPsych.plugins["chain-episode"] = (function() {
 
 
         // record choice as 'slow'
-        response.chosen_side = "SLOW";
+        response.accept = "SLOW";
 
         // wait some time and then end trial
         jsPsych.pluginAPI.setTimeout(function() {
